@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".TeamActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/bgrp_bg7"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+       />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AACHAL - UI DESIGNER"
+        android:textSize="20sp"
+        android:textColor="@color/primary"
+        android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="She is an aspiring computer engineer from IOE Dharan. All the beautiful stuffs that you see here is all of her contribution. Oh! and she is Nepal topper on her grade 12th, isn’t that great?"/>
+<!--        <View-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="1dp"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:background="@color/gray"/>-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KRITAGYA"
+            android:textSize="20sp"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/primary"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="He is a coolest guy with beautiful hair and funny moustache. An out of the box thinker and the creative one. He is responsible for all design changes and multiple iterations!"/>
+<!--        <View-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="1dp"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:background="@color/gray"/>-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SACHIN - DATA COLLECTOR"
+            android:layout_marginTop="16dp"
+            android:textSize="20sp"
+            android:textColor="@color/primary"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Oh man he just keeps on having random Ideas and brings Choco fun for everyone. He makes sure things happen right. He just announced bug bounty, if you come up with some errors you’ll get one Choco fun too, ok may be two, KHUS?"/>
+<!--        <View-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="1dp"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:background="@color/gray"/>-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SHYAM KISHOR - DEVELOPER"
+            android:textSize="20sp"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/primary"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Radhe Radhe! He is the most disciplined of us all. Perfect in catching bugs. It was also his dream to make blood related mobile application for long and here it is in your hands right now.  "/>
+
+
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DonorFromActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/bgrp_bg7"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title="Donor Form" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="32dp">
+
+
+            <TextView
+                android:id="@+id/tokentake"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="token"
+                android:textColor="@color/Green"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <com.rilixtech.widget.countrycodepicker.CountryCodePicker
+                android:id="@+id/ccp"
+                android:layout_width="wrap_content"
+                android:background="@drawable/border_left"
+                android:padding="10dp"
+                android:visibility="gone"
+                android:layout_height="wrap_content" />
+
+            <include layout="@layout/fname_item"/>
+            <include layout="@layout/phone_item_tv"/>
+            <include layout="@layout/location_item"/>
+
+
+
+            <include layout="@layout/bg_item" />
+
+            <include layout="@layout/gender_item" />
+
+            <include layout="@layout/wt_item" />
+
+            <CheckBox
+                android:id="@+id/agreeDonate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:checked="true"
+                android:gravity="top"
+                android:text="By submitting the form I hearby declare that I am 18 or above years old and wish to donate blood when needed"
+                android:textColor="@color/primary" />
+
+            <Button
+                android:id="@+id/register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:fontFamily="@font/nunitosans_black"
+                android:text="Register" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,139 @@
+<resources>
+    <string name="app_name">BLOOD CONNECT</string>
+    <string name="apiKey">AIzaSyBjemfvusBbrnfoHMRlhs_XOWu_b97yXIo</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="action_geolocate">Pick Place</string>
+    <string name="default_info_title">Default Location</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="default_info_snippet">No places found, because location permission is disabled.</string>
+
+    <string-array name="bloodGroup">
+        <item>Select Blood Group</item>
+        <item>A+</item>
+        <item>B+</item>
+        <item>O+</item>
+        <item>AB+</item>
+        <item>A-</item>
+        <item>B-</item>
+        <item>O-</item>
+        <item>AB-</item>
+
+    </string-array>
+    <string-array name="bankPint">
+        <item>Select Pints of Blood</item>
+        <item>1 Pint</item>
+        <item>2 Pints</item>
+        <item>3 Pints</item>
+        <item>4 Pints</item>
+        <item>5 Pints</item>
+        <item>6 Pints</item>
+        <item>7 Pints</item>
+        <item>8 Pints</item>
+        <item>9 Pints</item>
+        <item>10 Pints</item>
+        <item>11 Pints</item>
+        <item>12 Pints</item>
+        <item>13 Pints</item>
+        <item>14 Pints</item>
+        <item>15 Pints</item>
+        <item>16 Pints</item>
+        <item>17 Pints</item>
+        <item>18 Pints</item>
+        <item>19 Pints</item>
+        <item>20 Pints</item>
+        <item>21 Pints</item>
+        <item>22 Pints</item>
+        <item>23 Pints</item>
+        <item>24 Pints</item>
+        <item>25 Pints</item>
+        <item>26 Pints</item>
+        <item>27 Pints</item>
+        <item>28 Pints</item>
+        <item>29 Pints</item>
+        <item>30 Pints</item>
+        <item>31 Pints</item>
+        <item>32 Pints</item>
+        <item>33 Pints</item>
+        <item>34 Pints</item>
+        <item>35 Pints</item>
+        <item>36 Pints</item>
+        <item>37 Pints</item>
+        <item>38 Pints</item>
+        <item>39 Pints</item>
+        <item>40 Pints</item>
+        <item>41 Pints</item>
+        <item>42 Pints</item>
+        <item>43 Pints</item>
+        <item>44 Pints</item>
+        <item>45 Pints</item>
+        <item>46 Pints</item>
+        <item>47 Pints</item>
+        <item>48 Pints</item>
+        <item>49 Pints</item>
+        <item>50 Pints</item>
+        <item>50+ Pints</item>
+
+
+    </string-array>
+    <string-array name="genderList">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="bloodTyp">
+        <item>Fresh Blood</item>
+        <item>PRP</item>
+        <item>FFD</item>
+        <item>PCV</item>
+    </string-array>
+    <string-array name="pintList">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="about">BLOOD CONNECT is completely free to use android application for finding blood donors and donating blood, finding nearby ambulances and getting blood bank updates in real time.\n
+यस एप बाट तपाईंले आँफु नजिकैको रक्तदाता खोज्न र रगत आभव भएको ब्यक्तिलाई रक्तदान गर्न सक्नुहुन्छ, नजिकैको ब्लड बैंकमा रगतको ताजा अवस्थाको जानकारी लिन सक्नुहुन्छ र बिरामी पर्दा नजिकैको एम्बुलेन्सलाई फोन गरेर बोलाउन सक्नुहुन्छ ।
+\n\n
+        <b>Features of BLOOD CONNECT:</b>
+\n\n
+
+•	<b>AMBULANCE:</b> This app recommends nearest ambulance as efficiently as possible and it has in-app feature to call them directly using just a single tap on green call icon. This app also allows users to search ambulance on your desired location on cases where user is physically not present in the place where ambulance is needed.
+\n\n
+•	<b>BLOOD DONATE:</b>  This feature allows user to fill up the donor form and be a potential blood donor. You will get a notification when anyone in your vicinity needs blood of your blood group.  Either our dedicated volunteer will call you in-person or you will be notified via this application to donate blood. We will provide you with a certificate of appreciation for your noble contribution.
+\n\n
+•	<b>BLOOD REQUEST:</b>  This feature allows user to request blood when prescribed by doctors for any kind of medical problems. We connect you to donors with matching blood group who are present near your location. You will either get a direct call from blood donors or from our dedicated volunteers who would collaborate with both donors and you “the requesting party” to solve the problem.
+\n\n
+•	<b>BLOOD BANK:</b> This feature displays live feed of user’s nearest blood bank. User can call nearest blood bank or see their last updated blood stock from this app. User can access google map from this app and navigate their way towards the required blood bank in case the user has confusion about location of Blood Bank.
+\n\n
+•	<b>PUBLIC REQUESTS:</b> There is a View Request section where anyone can view blood request made by patient party near their location. All the necessary information including contact details is given in the request and you may call the patient’s contact person to donate blood if the blood group matches with you. You may send the information of patient to your friend or family whose blood group matches with the patient via in-app share service.
+\n\n
+We will ask for location permission to optimize the service based on location and messaging permission to send you OTP for registration. We “BLOOD CONNECT”. application do not charge money for any service we provide you.  Developing mobile application and running it requires time, effort and money so if this app has been any help to you, please consider donating us through ESEWA or KHALTI. It will help us to add more premium features to the users.
+\n\n
+Thank you for downloading our app…
+</string>
+</resources>

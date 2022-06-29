@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RequestActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/bgrp_bg7"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title="Request Form" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <include layout="@layout/cperson_item" />
+
+            <include layout="@layout/phone_item" />
+            <include layout="@layout/patientname_itme" />
+
+
+            <include layout="@layout/location_item" />
+
+            <include layout="@layout/hospital_item" />
+
+            <include layout="@layout/bg_item" />
+
+            <include layout="@layout/constituent_item" />
+
+            <include layout="@layout/case_item" />
+
+
+
+
+
+            <Button
+                android:id="@+id/sendRequest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="Send Request" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

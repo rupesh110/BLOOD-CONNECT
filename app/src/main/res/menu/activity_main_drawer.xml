@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_request"
+            android:icon="@drawable/eye"
+            android:title="View Requests" />
+
+<!--        <item-->
+<!--            android:id="@+id/nav_cotribute"-->
+<!--            android:icon="@drawable/contribute"-->
+<!--            android:title="Contribute Us" />-->
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/contact"
+            android:title="Contact Us" />
+
+        <item
+            android:id="@+id/nav_thank"
+            android:icon="@drawable/thank"
+            android:title="Thank You" />
+
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/share"
+            android:title="Share App" />
+        <item
+            android:id="@+id/nav_rate"
+            android:icon="@drawable/rate"
+            android:title="Rate Us" />
+        <item
+            android:id="@+id/nav_policy"
+            android:icon="@drawable/privacy"
+            android:title="Privacy Policy" />
+        <item
+            android:id="@+id/nav_liscence"
+            android:icon="@drawable/liscence"
+            android:title="License Agreement" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/about"
+            android:title="About App" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/feed"
+            android:title="Help/Feedback" />
+    </group>
+
+
+</menu>
